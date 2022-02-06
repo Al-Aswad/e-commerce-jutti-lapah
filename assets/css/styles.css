@@ -1,0 +1,46 @@
+/* .menu { */
+.container-nav {
+  z-index: 999;
+}
+.navbar-menu {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 18px;
+  width: 100%;
+  text-align: center;
+}
+header {
+  z-index: 999;
+}
+main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* .header-main {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+} */
+
+/* .header-main img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+} */
+
+body {
+  font-family: "Merriweather", serif;
+}
+
+.section-padding {
+  padding: 60px 0;
+}
+.feature-product-heading {
+  text-align: center;
+}

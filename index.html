@@ -10,14 +10,223 @@
     <!-- Bootstrap 4 -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
+    <div class="container-fluid" style="position: relative;">
+        <header class="py-4 px-lg-5" style="position: relative; height: 174px;">
+            <div class=" container-nav d-flex justify-content-between">
+                <div>
+                    <button class="d-none">menu</button>
+                    <nav class="navbar-menu d-flex justify-content-center"
+                        style="position: absolute; bottom: 0;left: 0;padding-bottom: 18px;width: 100%;text-align: center;">
+                        <ul class="menu d-flex justify-content-between p-0 m-0">
+                            <li class="nav-link">SHOP</li>
+                            <li class="nav-link">MADE BY ORDER</li>
+                            <li class="nav-link">READY TO WEAR</li>
+                            <li class="nav-link">EVENTS</li>
+                            <li class="nav-link">ABOUT US</li>
+                        </ul>
+                    </nav>
+                </div>
+                <div>
+                    <img src="assets/img/icons/jutti-lapah.png" alt="" width="271">
+                </div>
+                <div class="py-2">
+                    <img class="py-2 px-2" src="assets/img/icons/icon_cart.png" alt="">
+                    <img class="py-2 px-2" src="assets/img/icons/icon_cart.png" alt="">
+                    <img class="py-2 px-2" src="assets/img/icons/icon_cart.png" alt="">
+                </div>
+            </div>
 
+        </header>
+        <main>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper" style="height: 100vh;">
+                    <div class="swiper-slide" style="
+                              background-image: url(assets/img/header_image.jpg);
+                              background-size: cover;
+                              background-color: #464646;
+                              background-repeat: no-repeat;
+                              background-position: center center;height: 100%;">
+                        <div class="container container__header-content" style="    display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            height: 100%;">
+                            <!-- <div class="title" data-swiper-parallax="-300">
+                                    <h1 class="container__header-content__title">Driving Meaning Full</h1>
+                                </div>
+                                <div class="text" data-swiper-parallax="-100">
+                                    <p class="container__header-content__description">
+                                        We create, build and continue to grow. Encouraging
+                                        innovations
+                                    </p>
+                                </div>
+                                <div class="btn-cta mt-3">
+                                    <a class="btn btn-primary px-4" href="#">Booking Service</a>
+                        </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="section-padding">
+                <div class="container__feature-product">
+                    <div class="feature-product-heading">
+                        <p>KOLEKSI</p>
+                        <h3>TERBARU</h3>
+                    </div>
+
+                    <div class="feature-product-content d-flex justify-content-center align-content-center">
+                        <div class="d-flex row">
+                            <div class="col">
+                                <div class="card" style="width: 100%;">
+                                    <div class="card-body text-center p-0 border-0 b-0">
+                                        <img src="assets/img/img1.png" alt="">
+
+                                        <a href="#" class="nav-item nav-link px-0">Another link</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card" style="width: 100%;">
+                                    <div class="card-body text-center p-0 border-0 b-0">
+                                        <img src="assets/img/img1.png" alt="">
+
+                                        <a href="#" class="nav-item nav-link px-0">Another link</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card" style="width: 100%;">
+                                    <div class="card-body text-center p-0 border-0 b-0">
+                                        <img src="assets/img/img1.png" alt="">
+
+                                        <a href="#" class="nav-item nav-link px-0">Another link</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+        </main>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- <script src="assets/js.js "></script> -->
+
+
+    <script>
+        var swiper = new Swiper(".mySwiper ", {
+            slidesPerView: 1,
+            // spaceBetween: 30,
+            loop: true,
+            // autoplay: {
+            //      delay: 9000,
+            //      disableOnInteraction: false,
+            // },
+            pagination: {
+                el: ".swiper-pagination ",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next ",
+                prevEl: ".swiper-button-prev ",
+            },
+        });
+
+        var swiper = new Swiper(".slideProduct ", {
+            effect: "coverflow ",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto ",
+            slidesPerView: 1,
+            // spaceBetween: -30,
+            loop: true,
+            autoplay: {
+                delay: 90000,
+                disableOnInteraction: false,
+            },
+            coverflowEffect: {
+                rotate: 30,
+                stretch: 170,
+                // depth: 100,
+                modifier: 1,
+
+                slideShadows: false,
+            },
+            pagination: {
+                el: ".swiper-pagination ",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next ",
+                prevEl: ".swiper-button-prev ",
+            },
+        });
+
+        var swiper = new Swiper(".slideTestimoni ", {
+            slidesPerView: 1,
+            // spaceBetween: 30,
+            loop: true,
+            autoplay: {
+                delay: 9000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination ",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next ",
+                prevEl: ".swiper-button-prev ",
+            },
+        });
+        var swiper = new Swiper(".slideEvent ", {
+            effect: "card ",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto ",
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 10,
+                depth: 150,
+                modifier: 1,
+                slideShadows: false,
+            },
+            pagination: {
+                el: ".swiper-pagination ",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next ",
+                prevEl: ".swiper-button-prev ",
+            },
+        });
+    </script>
 </body>
 
 </html>
