@@ -44,3 +44,10 @@ body {
 .feature-product-heading {
   text-align: center;
 }
+.btn {
+  border-radius: 0;
+  border: none;
+}
+.btn-primary {
+  background-color: #fec234;
+}
