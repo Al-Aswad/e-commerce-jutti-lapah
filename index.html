@@ -7,14 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Butik Zahrazhafira</title>
 
-    <!-- Bootstrap 4 -->
+    <!-- Bootstrap Css -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <!-- Google Font -->
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
+    <script src="https://unpkg.com/@tabler/icons@1.36.0/icons-react/dist/index.umd.js"></script>
+    <!-- Swiper Css -->
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <!-- Style -->
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
@@ -39,9 +42,26 @@
                     <img src="assets/img/icons/jutti-lapah.png" alt="" width="271">
                 </div>
                 <div class="py-2">
-                    <img class="py-2 px-2" src="assets/img/icons/icon_cart.png" alt="">
-                    <img class="py-2 px-2" src="assets/img/icons/icon_cart.png" alt="">
-                    <img class="py-2 px-2" src="assets/img/icons/icon_cart.png" alt="">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="44"
+                        height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <circle cx="10" cy="10" r="7" />
+                        <line x1="21" y1="21" x2="15" y2="15" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="44"
+                        height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <circle cx="12" cy="7" r="4" />
+                        <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart" width="32"
+                        height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                    </svg>
                 </div>
             </div>
 
@@ -62,10 +82,39 @@
                             <div class="text" data-swiper-parallax="-100">
                                 <p class="container__header-content__description">
                                     TERBARU
+
                                 </p>
                             </div>
                             <div class="title" data-swiper-parallax="-300">
                                 <h1 class="container__header-content__title w-50 text-uppercase">Lorem ipsum dolor sit
+                                    amet,
+                                    consectetur
+                                    adipiscing elit ut aliquam</h1>
+                            </div>
+
+                            <div class="btn-cta mt-3">
+                                <a class="btn btn-primary px-5 py-2" href="#">PRE ORDER</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="
+                              background-image: url(assets/img/image2.png);
+                              background-size: cover;
+                              background-color: #464646;
+                              background-repeat: no-repeat;
+                              background-position: center center;height: 100%;">
+                        <div class="container container__header-content" style="    display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            height: 100%;">
+                            <div class="text" data-swiper-parallax="-100">
+                                <p class="container__header-content__description">
+                                    TERBARU
+                                </p>
+                            </div>
+                            <div class="title" data-swiper-parallax="-300">
+                                <h1 class="container__header-content__title w-50 text-uppercase">Lorem ipsum dolor
+                                    sit
                                     amet,
                                     consectetur
                                     adipiscing elit ut aliquam</h1>
@@ -128,10 +177,11 @@
 
 
 
-
+    <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
+    Bootstrap Js
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
@@ -140,96 +190,11 @@
         crossorigin="anonymous"></script>
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <!-- <script src="assets/js.js "></script> -->
+    <!-- Script -->
+    <script src="assets/scripts/scripts.js"></script>
 
 
-    <script>
-        var swiper = new Swiper(".mySwiper ", {
-            slidesPerView: 1,
-            // spaceBetween: 30,
-            loop: true,
-            // autoplay: {
-            //      delay: 9000,
-            //      disableOnInteraction: false,
-            // },
-            pagination: {
-                el: ".swiper-pagination ",
-                clickable: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next ",
-                prevEl: ".swiper-button-prev ",
-            },
-        });
 
-        var swiper = new Swiper(".slideProduct ", {
-            effect: "coverflow ",
-            grabCursor: true,
-            centeredSlides: true,
-            slidesPerView: "auto ",
-            slidesPerView: 1,
-            // spaceBetween: -30,
-            loop: true,
-            autoplay: {
-                delay: 90000,
-                disableOnInteraction: false,
-            },
-            coverflowEffect: {
-                rotate: 30,
-                stretch: 170,
-                // depth: 100,
-                modifier: 1,
-
-                slideShadows: false,
-            },
-            pagination: {
-                el: ".swiper-pagination ",
-                clickable: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next ",
-                prevEl: ".swiper-button-prev ",
-            },
-        });
-
-        var swiper = new Swiper(".slideTestimoni ", {
-            slidesPerView: 1,
-            // spaceBetween: 30,
-            loop: true,
-            autoplay: {
-                delay: 9000,
-                disableOnInteraction: false,
-            },
-            pagination: {
-                el: ".swiper-pagination ",
-                clickable: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next ",
-                prevEl: ".swiper-button-prev ",
-            },
-        });
-        var swiper = new Swiper(".slideEvent ", {
-            effect: "card ",
-            grabCursor: true,
-            centeredSlides: true,
-            slidesPerView: "auto ",
-            coverflowEffect: {
-                rotate: 0,
-                stretch: 10,
-                depth: 150,
-                modifier: 1,
-                slideShadows: false,
-            },
-            pagination: {
-                el: ".swiper-pagination ",
-            },
-            navigation: {
-                nextEl: ".swiper-button-next ",
-                prevEl: ".swiper-button-prev ",
-            },
-        });
-    </script>
 </body>
 
 </html>
