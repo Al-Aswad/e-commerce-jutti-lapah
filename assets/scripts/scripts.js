@@ -1,4 +1,19 @@
 
+const menuOpen = document.getElementById('menu-open');
+const menuClose = document.getElementById('menu-close');
+
+let sMenu = false;
+menuOpen.onclick = () => {
+    $('#sidebar-menu').addClass('active');
+}
+menuClose.onclick = () => {
+    $('#sidebar-menu').removeClass('active');
+}
+
+
+
+
+
 var swiper = new Swiper(".mySwiper ", {
     slidesPerView: 1,
     // spaceBetween: 30,
